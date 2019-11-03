@@ -1,0 +1,33 @@
+body {
+	background-image: linear-gradient(blue, cyan);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.left {
+	display:block;
+	margin-right: 100px;
+	height: 300px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+	background-color: #4CBB50
+	
+	
+}
