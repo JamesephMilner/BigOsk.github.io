@@ -1,33 +1,73 @@
 body {
-	background-image: linear-gradient(blue, cyan);
+	 background-image: linear-gradient(to bottom,red,blue); 
+	 background-size:cover;
+	 background-repeat:no-repeat;
+	 
+}
+ul {
+	text-align: center;
+	position:sticky;
+}
+iframe {
+		position: absolute;
+		top: 510px;
+		left: 10px;
+}
+li {
+	display: inline;
+	list-style-type: none;
+    	padding: 4px;
+    	background-color: #ff1a1a;
+    	text-decoration: none;
+	font-size: 36px;
+	text-align: center;
+	border-style: solid;
+	color: #000000;
+}
+li:first-child{
+	border-left-style:solid;
+	
+}
+	
+li:hover {
+	background-color: #ff9999;
+	
+	
+}
+p {
+	padding: 15px 32px;
+	background-color: #bf00ff;
+	display: inline-block;
+	border-style: solid;
+	color:#000000;
 }
 
+#intro {
+		position: absolute;
+    	top: 180px;
+    	right: 10px;
+    	width: 53%;
+	
+}
+#blackhole {
+    	position: absolute;
+    	top: 180px;
+    	left: 10px;
+    	width: 45%;
+		height: 323px;
+		border-style: solid;
+		color: #ffffff;
+}
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  	display: block;
+	position: sticky;
+	overflow: hidden;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 
 .left {
 	display:block;
 	margin-right: 100px;
 	height: 300px;
-}
-
-.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
-.button:hover {
-	background-color: #4CBB50
-	
-	
 }
