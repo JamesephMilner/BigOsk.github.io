@@ -2,11 +2,6 @@
 
 <html>
 	<head>
-		<style>
-		body{
-			background-color:blue;
-		}
-		</style>
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
@@ -22,16 +17,21 @@
 	<body>
 		<img src="logo.png" class="img-fluid" alt="Responsive image" id="logo">
 		<div class="parallax"></div>
-		<nav class="navbar navbar-inverse">
-			<div class="container-fluid">
-				<ul class="nav navbar-nav">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="chirp.html">What is CHIRP?</a></li>
-					<li><a href="blackholes.html">What are black holes?</a></li>
-					<li class="active"><a href="next.html">What's Next?</a></li>
-				</ul>
-			</div>
-		</nav>
+		
+<nav class="navbar sticky-top navbar-inverse" style="position:fixed;top:0;width:100%">
+  
+  <div class="container-fluid">
+	 
+    <ul class="nav navbar-nav">
+	  
+      <li><a href="index.html">Home</a></li>
+      <li><a href="chirp.html">What is CHIRP?</a></li>
+      <li><a href="blackholes.html">What are black holes?</a></li>
+      <li class="active"><a href="next.html">What's Next?</a></li>
+    </ul>
+	<img src="logo.png" id="logo">
+  </div>
+</nav> 
 		<h1><b>The Future of Astronomy</b></h1>
 		<br>
 		<p>Astronomy is a constantly changing field, needing the latest advances in computing technology to push our understanding of the Universe further. Here are some insights into overlooked aspects of astronomy, and how Computer Science could help them.</p>
